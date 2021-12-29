@@ -1,0 +1,46 @@
+package selfProgramming;
+
+public class Lesson2 {
+
+	public static void main(String[] args) {
+		//use loops in array
+		double grades[] = {96.5, 98.7, 99.3, 88.4, 88.6, 90.1};
+		int numbers[] = new int [10];
+		int i;
+		
+		for(i = 0; i <= 5; i++) 
+		{
+			System.out.println("Grade number " + i + " is " + grades[i]);
+		}
+		
+		for(i = 0; i <= 9; i++)
+		{
+			numbers[i] = i + 10;
+		}
+		
+		for (i = 0; i<= 9; i++)
+		{
+			System.out.println(numbers[i]);
+		}
+	}
+
+}
+
+Output :
+
+Grade number 0 is 96.5
+Grade number 1 is 98.7
+Grade number 2 is 99.3
+Grade number 3 is 88.4
+Grade number 4 is 88.6
+Grade number 5 is 90.1
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
