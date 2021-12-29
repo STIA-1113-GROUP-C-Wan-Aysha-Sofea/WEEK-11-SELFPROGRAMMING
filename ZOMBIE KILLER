@@ -1,0 +1,49 @@
+package selfProgramming;
+
+public class ZombieKiller {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Welcome to our Zombie Killer program!");
+		
+		String backpack[] = {"M416", "M24", "S12K"};
+		String zombies[] = {"Close-range zombie", "Mid-range zombie", "Long-range zombie"};
+		int numbersZombiesHATE[] = {4, 90, 70, 123, 12, 4, 1};
+		
+		System.out.println("backpack items");
+		System.out.println(backpack[0]);
+		System.out.println(backpack[1]);
+		System.out.println(backpack[2]);
+		
+		System.out.println();
+		
+		System.out.println("These are the zombies");
+		System.out.println(zombies[0]);
+		System.out.println(zombies[1]);
+		System.out.println(zombies[2]);
+		
+		System.out.println();
+		
+		System.out.println("number that zombies hate");
+		System.out.println(numbersZombiesHATE[6]);
+		
+
+	}
+
+}
+
+Output :
+
+Welcome to our Zombie Killer program!
+backpack items
+M416
+M24
+S12K
+
+These are the zombies
+Close-range zombie
+Mid-range zombie
+Long-range zombie
+
+number that zombies hate
+1
