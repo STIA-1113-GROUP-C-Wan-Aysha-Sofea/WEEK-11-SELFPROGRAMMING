@@ -1,0 +1,26 @@
+package selfProgramming;
+
+public class Lesson3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double grades[] = {96.5, 98.7, 99.3, 88.4, 88.6, 90.1};
+		double max;
+		int i;
+		
+		max = grades[0];
+		
+		for (i =0; i <=5; i++)
+		{
+			if(grades[0] > max) max = grades[i];
+		}
+		
+		System.out.println("the max grades in the class is : " + max);
+		
+	}
+
+}
+
+Output :
+
+the max grades in the class is : 96.5
