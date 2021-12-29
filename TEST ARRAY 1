@@ -1,0 +1,29 @@
+package selfProgramming;
+
+public class TestArray1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a[] = new int[6];
+		int sum = 0;
+		int i;
+		
+		a[0] =10; //initialization gincu ada 10 biji
+		a[1] =20; //eyeliner ada 20 biji
+		a[2] =70;
+		a[3] =40;
+		a[4] =50;
+		a[5] =60;
+		
+		for(i = 0; i < a.length; i++)
+			sum = sum + a[i];
+		System.out.println("Sum is : " + sum);
+		
+		
+	}
+
+}
+
+Output :
+
+Sum is : 250
