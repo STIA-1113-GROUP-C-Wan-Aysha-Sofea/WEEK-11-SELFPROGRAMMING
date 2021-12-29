@@ -1,0 +1,50 @@
+package selfProgramming;
+
+public class Lesson1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int ages[] = new int[5];
+		double heights[] = new double[5];
+		
+		heights[0] = 4.7;
+		heights[1] = 6.4;
+		heights[2] = 2.9;
+		heights[3] = 2.9;
+		heights[4] = 4.0;
+		
+		System.out.println("The first kid's height is " + heights[0]);
+		System.out.println("The second kid's height is " + heights[1]);
+		System.out.println("The third kid's height is " + heights[2]);
+		System.out.println("The fourth kid's height is " + heights[3]);
+		System.out.println("The fifth kid's height is " + heights[4]);
+		
+		ages[0] = 4; 
+		ages[1] = 6;
+		ages[2] = 3;
+		ages[3] = 5;
+		ages[4] = 3;
+		
+		System.out.println("\n\nThe first kid's age is " + ages[0]);
+		System.out.println("The second kid's age is " + ages[1]);
+		System.out.println("The third kid's age is " + ages[2]);
+		System.out.println("The fouth kid's age is " + ages[3]);
+		System.out.println("The fifth kid's age is " + ages[4]);
+	}
+
+}
+
+Output :
+
+The first kid's height is 4.7
+The second kid's height is 6.4
+The third kid's height is 2.9
+The fourth kid's height is 2.9
+The fifth kid's height is 4.0
+
+
+The first kid's age is 4
+The second kid's age is 6
+The third kid's age is 3
+The fouth kid's age is 5
+The fifth kid's age is 3
